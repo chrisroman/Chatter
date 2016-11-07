@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "353192411361",
+    "firebase_url": "https://chatter-396da.firebaseio.com",
+    "project_id": "chatter-396da",
+    "storage_bucket": "chatter-396da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353192411361:android:293b299340e4d191",
+        "android_client_info": {
+          "package_name": "edu.cornell.chatter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353192411361-nfmc9dokgoejg938v8sb67gapn09ibl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.cornell.chatter",
+            "certificate_hash": "4B70A0C2DCEC329DC7BE5772F0435991B090C9CB"
+          }
+        },
+        {
+          "client_id": "353192411361-b511d4i56um7f4bcbe5ke0g5178oa00g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5h7vx7LpEfFiWftZObFRuuXUrwsIqfbw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353192411361-b511d4i56um7f4bcbe5ke0g5178oa00g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
