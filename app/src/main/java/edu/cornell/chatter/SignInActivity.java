@@ -123,7 +123,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         }
 
         // User is not signed in. Maybe just wait for the user to press
-        // "sign in" again, or show a message.
+        // "sign in" again, or show a message_item.
     }
 
     @Override
@@ -149,7 +149,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 Log.d(TAG, "signInWithEmail:onComplete:" + task.isSuccessful());
 
-                                // If sign in fails, display a message to the user. If sign in succeeds
+                                // If sign in fails, display a message_item to the user. If sign in succeeds
                                 // the auth state listener will be notified and logic to handle the
                                 // signed in user can be handled in the listener.
                                 if (!task.isSuccessful()) {

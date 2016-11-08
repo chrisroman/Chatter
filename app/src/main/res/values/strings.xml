@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Chatter</string>
+    <string name="sign_in_cancelled">Sign in failed. Please try again or sign up.</string>
+    <string name="no_internet_connection">No network connection available.</string>
+    <string name="twitter_consumer_key" translatable="false">wH9Eq7fuDrNXM2JbXAJguRGfd</string>
+    <string name="twitter_consumer_secret" translatable="false">wPoeV8nwPDrsv9GuUxQUtXgJLivfd46R0ZyLUXFSoCA4pMSwOv</string>
 </resources>
