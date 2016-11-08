@@ -8,7 +8,8 @@
     android:paddingBottom="6dp"
     android:layout_marginTop="5dp"
     android:paddingTop="8dp"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:id="@+id/sign_in_activity">
 
     <!-- App Title -->
     <LinearLayout
@@ -97,8 +98,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sign up!"
-                    android:id="@+id/sign_up"/>
+                    android:text="Click here to sign up!"
+                    android:id="@+id/login_sign_up"/>
 
             </LinearLayout>
 

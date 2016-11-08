@@ -9,19 +9,23 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class HomeActivity extends AppCompatActivity {
 
-    private Toolbar mToolbar;
+    @BindView(R.id.toolbarHome)
+    Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        ButterKnife.bind(this);
 
         Toast success = Toast.makeText(getApplicationContext(), "Welcome to Chatter!", Toast.LENGTH_SHORT);
         success.show();
 
-        mToolbar = (Toolbar) findViewById(R.id.toolbarHome);
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
     }
@@ -43,6 +47,7 @@ public class HomeActivity extends AppCompatActivity {
                 finish();
                 Intent intent = new Intent(this, SignInActivity.class);
                 startActivity(intent);
+                break;
         }
 
         return super.onOptionsItemSelected(item);
