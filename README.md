@@ -25,5 +25,7 @@ or ownership over these files.
 
 ## References
 <href>https://github.com/firebase/FirebaseUI-Android</href>
+
 <href>https://firebase.google.com/docs/</href>
-<href>https://developer.android.com/index.html>/href>
+
+<href>https://developer.android.com/index.html</href>
