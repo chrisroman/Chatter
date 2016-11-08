@@ -161,8 +161,7 @@
     <!-- 3rd Party Log in Buttons and "Powered By Firebase" -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.73">
+        android:layout_height="match_parent">
 
         <Button
         android:layout_width="wrap_content"
@@ -215,6 +214,19 @@
             android:textColor="@color/cardview_shadow_start_color"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="Continue Without Signing In."
+            android:textSize="10sp"
+            android:background="#ff0000"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/unsafe_continue"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="29dp" />
 
     </RelativeLayout>
 

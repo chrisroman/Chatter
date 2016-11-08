@@ -9,6 +9,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -44,9 +46,11 @@ public class HomeActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         switch (item.getItemId()) {
             case R.id.toolbarSignOut:
-                finish();
+                if(FirebaseAuth.getInstance() != null)
+                    FirebaseAuth.getInstance().signOut();
                 Intent intent = new Intent(this, SignInActivity.class);
                 startActivity(intent);
+                finish();
                 break;
         }
 
