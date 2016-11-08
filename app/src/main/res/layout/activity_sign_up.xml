@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="#f5f5f5"
+    android:paddingBottom="6dp"
+    android:layout_marginTop="5dp"
+    android:paddingTop="8dp"
+    android:weightSum="1">
+
+    <!-- Title -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Your Account!"
+            android:fontFamily="cursive"
+            android:textColor="@color/title_text_color"
+            android:textSize="40sp"/>
+    </LinearLayout>
+
+
+    <!-- Required Sign Up Information -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/signup_name"
+            android:hint="Enter your name..."
+            android:gravity="center_horizontal"
+            style="@style/FirebaseEditTextTheme"
+            android:theme="@style/FirebaseEditTextTheme"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/signup_email"
+            android:hint="Enter your email..."
+            android:gravity="center_horizontal"
+            style="@style/FirebaseEditTextTheme"
+            android:theme="@style/FirebaseEditTextTheme"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/signup_username"
+            android:hint="Username"
+            android:gravity="center_horizontal"
+            style="@style/FirebaseEditTextTheme"
+            android:theme="@style/FirebaseEditTextTheme"
+            android:paddingTop="50dp"
+            android:paddingBottom="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup_password"
+            android:ems="10"
+            android:hint="Password"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            style="@style/FirebaseEditTextTheme"
+            android:theme="@style/FirebaseEditTextTheme"
+            android:inputType="textPassword"
+            android:paddingBottom="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sign Up"
+            android:paddingRight="100dp"
+            android:paddingLeft="100dp"
+            android:id="@+id/signup_button"
+            android:textColor="#ffffff"
+            android:typeface="normal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/password_button"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
